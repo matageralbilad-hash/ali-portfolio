@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض أعمال | علي حسين السقاف</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        header { background: #1a252f; color: #fff; padding: 40px 20px; text-align: center; }
+        header h1 { margin-bottom: 10px; font-size: 2.5rem; }
+        header p { font-size: 1.2rem; color: #3498db; }
+        .container { max-width: 1100px; margin: auto; padding: 20px; }
+        .about { background: #fff; padding: 30px; margin: 20px 0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .project-card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between; }
+        .project-card h3 { color: #2c3e50; margin-bottom: 10px; }
+        .project-card p { font-size: 0.95rem; color: #666; margin-bottom: 15px; }
+        .tech-tags { margin-bottom: 15px; }
+        .tag { background: #e1e8ed; color: #2c3e50; padding: 3px 8px; font-size: 0.8rem; border-radius: 4px; margin-left: 5px; display: inline-block; }
+        .btn { display: inline-block; background: #3498db; color: #fff; padding: 10px 15px; text-align: center; border-radius: 5px; text-decoration: none; font-weight: bold; transition: background 0.3s; }
+        .btn:hover { background: #2980b9; }
+        .contact { background: #2c3e50; color: #fff; text-align: center; padding: 40px 20px; margin-top: 40px; border-radius: 8px; }
+        .contact a { color: #3498db; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>علي حسين السقاف</h1>
+        <p>مطور برمجيات وتطبيقات ويب ذكية</p>
+    </header>
+
+    <div class="container">
+        <!-- نبذة عنك -->
+        <section class="about">
+            <h2>من أنا؟</h2>
+            <p>أنا مبرمج ومطور ويب شغوف ببناء تطبيقات ومنصات إلكترونية متكاملة تحل مشاكل حقيقية. أمتلك خبرة في دمج تقنيات الذكاء الاصطناعي، البرمجة الخلفية باستخدام Firebase، وإدارة قواعد البيانات والوسائط لبناء تجارب مستخدم خرافية ومتكاملة.</p>
+        </section>
+
+        <!-- المشاريع -->
+        <section>
+            <h2 style="margin-top: 40px; color: #2c3e50;">معرض مشاريعي 🚀</h2>
+            <div class="projects-grid">
+                
+                <!-- مشروع القرآن -->
+                <div class="project-card">
+                    <div>
+                        <h3>تطبيق القرآن الكريم الذكي 📖🎙️</h3>
+                        <p>تطبيق تفاعلي متطور يعتمد على تقنيات الذكاء الاصطناعي ومعالجة الصوت لتدريب المستخدمين على التلاوة والتسميع ومحاكاة 30 قارئاً خلال 30 يوماً.</p>
+                        <div class="tech-tags">
+                            <span class="tag">HTML/CSS/JS</span>
+                            <span class="tag">AI Audio APIs</span>
+                            <span class="tag">Vercel</span>
+                        </div>
+                    </div>
+                    <a href="https://sawtak-platform.vercel.app" class="btn" target="_blank">زيارة الموقع الحي 🌐</a>
+                </div>
+
+                <!-- مشروع إيفون نت -->
+                <div class="project-card">
+                    <div>
+                        <h3>منصة إيفون نت (Iphone Net) 🎬⚽</h3>
+                        <p>منصة بث أفلام ومباريات متكاملة بنظام عضوية مجاني ومدفوع، مدعومة بلوحة تحكم خرافية (Admin Panel) لإدارة المحتوى والخطط ورفع الصور عبر ImgBB.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Firebase Auth</span>
+                            <span class="tag">ImgBB API</span>
+                            <span class="tag">Vercel</span>
+                        </div>
+                    </div>
+                    <a href="https://ifon.vercel.app/" class="btn" target="_blank">زيارة الموقع الحي 🌐</a>
+                </div>
+
+                <!-- مشروع متاجر البلاد -->
+                <div class="project-card">
+                    <div>
+                        <h3>مشروع متاجر البلاد 🛒</h3>
+                        <p>منصة تجارة إلكترونية ذكية تتيح تصفح المنتجات ونظام سلة متكامل، مع ميزة الربح عبر المسابقات وجلب اقتراحات مخصصة للمنتجات بالذكاء الاصطناعي.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Firebase</span>
+                            <span class="tag">ImageKit</span>
+                            <span class="tag">AI Integration</span>
+                        </div>
+                    </div>
+                    <a href="https://project-folder-two.vercel.app/" class="btn" target="_blank">زيارة الموقع الحي 🌐</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- التواصل -->
+        <section class="contact">
+            <h2>هل لديك مشروع وتريد بناءه؟ لنعمل معاً! 🤝</h2>
+            <p style="margin-top: 15px;">رقم الجوال / واتساب: <strong>774257557 (967+)</strong></p>
+            <p>أو زر حسابي على <a href="https://github.com/matageralbilad-hash" target="_blank">GitHub</a> لرؤية كافة مستودعاتي وأكوادي.</p>
+        </section>
+    </div>
+
+</body>
+</html>
